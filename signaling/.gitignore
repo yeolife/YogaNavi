@@ -5,3 +5,5 @@
 *.iml
 *.ipr
 *.iws
+/local.properties
+local.properties

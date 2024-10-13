@@ -50,8 +50,8 @@ public class FCMService {
                 .putData("liveId", data.get("liveId"))
                 .setToken(token)
                 .setAndroidConfig(AndroidConfig.builder()
-                    .setPriority(AndroidConfig.Priority.HIGH)
-                    .build())
+                .setPriority(AndroidConfig.Priority.HIGH)
+                .build())
                 .build();
 
             messages.add(message);
